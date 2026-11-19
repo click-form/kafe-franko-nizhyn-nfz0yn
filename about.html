@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас — Кафе «Франко»</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Кафе «Франко»</a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a>
+                <a href="about.html" class="nav-link active" data-i18n="nav_about">Про нас</a>
+                <a href="services.html" class="nav-link" data-i18n="nav_services">Меню та послуги</a>
+                <a href="gallery.html" class="nav-link" data-i18n="nav_gallery">Галерея</a>
+                <a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a>
+            </nav>
+            <div class="header-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="nav_about">Про нас</h1>
+                <p data-i18n="about_subtitle">Дізнайтеся більше про наше кафе, атмосферу та традиції гостинності</p>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container about-content-grid">
+                <div class="about-text">
+                    <h2 data-i18n="about_heading">Кафе «Франко» у Ніжині</h2>
+                    <p data-i18n="about_p1">Кафе «Франко» — затишний заклад громадського харчування, розташований у місті Ніжині за адресою вул. Овдіївська, буд. 1. Заклад поєднує в собі атмосферу стильної міської кофейні та комфортної їдальні з лінією роздачі, де кожен відвідувач може швидко та смачно пообідати чи насолодитися ароматною кавою.</p>
+                    <p data-i18n="about_p2">Меню кафе пропонує великий вибір свіжої випічки, різноманітних десертів, а також поживних страв домашньої кухні, які готуються з турботою про якість та смак. Це чудове місце для ранкової кави, дружніх зустрічей або ситного обіду протягом робочого дня.</p>
+                    <p data-i18n="about_p3">Заклад вирізняється зручним розташуванням неподалік від центру міста, гостинною атмосферою та стабільним режимом роботи. Кафе «Франко» є популярним вибором як для мешканців Ніжина, так і для гостей міста, які шукають затишну локацію для відпочинку та якісного харчування.</p>
+                </div>
+                <div class="about-sidebar">
+                    <div class="info-card">
+                        <h3 data-i18n="info_card_title">Основна інформація</h3>
+                        <ul>
+                            <li><strong data-i18n="lbl_address">Адреса:</strong> <span data-i18n="footer_address">м. Ніжин, вул. Овдіївська, буд. 1</span></li>
+                            <li><strong data-i18n="lbl_hours">Графік роботи:</strong> 08:00 – 22:00</li>
+                            <li><strong data-i18n="lbl_phone">Телефон:</strong> <a href="tel:+380681028630">+380 68 102 8630</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">Кафе «Франко»</h3>
+                <p data-i18n="footer_desc">Затишний заклад для душевних зустрічей та смачних обідів.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>08:00 – 22:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p data-i18n="footer_address">м. Ніжин, вул. Овдіївська, буд. 1</p>
+                <p><a href="tel:+380681028630">+380 68 102 8630</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Кафе «Франко». <span data-i18n="all_rights">Всі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
