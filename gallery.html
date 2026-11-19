@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Кафе «Франко»</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo" data-i18n="brand_name">Кафе «Франко»</a>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link" data-i18n="nav_home">Головна</a>
+                <a href="about.html" class="nav-link" data-i18n="nav_about">Про нас</a>
+                <a href="services.html" class="nav-link" data-i18n="nav_services">Меню та послуги</a>
+                <a href="gallery.html" class="nav-link active" data-i18n="nav_gallery">Галерея</a>
+                <a href="contacts.html" class="nav-link" data-i18n="nav_contacts">Контакти</a>
+            </nav>
+            <div class="header-controls">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="nav_gallery">Галерея</h1>
+                <p data-i18n="gallery_subtitle">Атмосфера затишку та комфорту у Кафе «Франко»</p>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="css-placeholder" data-i18n="photo_soon">Фото скоро з'являться</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="css-placeholder" data-i18n="photo_soon">Фото скоро з'являться</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="css-placeholder" data-i18n="photo_soon">Фото скоро з'являться</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 data-i18n="brand_name">Кафе «Франко»</h3>
+                <p data-i18n="footer_desc">Затишний заклад для душевних зустрічей та смачних обідів.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_hours_title">Графік роботи</h4>
+                <p>08:00 – 22:00</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p data-i18n="footer_address">м. Ніжин, вул. Овдіївська, буд. 1</p>
+                <p><a href="tel:+380681028630">+380 68 102 8630</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; Кафе «Франко». <span data-i18n="all_rights">Всі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
